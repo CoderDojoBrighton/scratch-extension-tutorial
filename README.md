@@ -21,7 +21,7 @@ Setup an extension using the extension guide:
 
 Your extension should live under `scratch-vm/src/extensions/scratch3_myId/index.js` where `myId` is the name of your extension.
 
-In `scratch-vm/src/extension-support/extension-manager.js`, add:
+In `scratch-vm/src/extension-support/extension-manager.js` add:
 ```js
 const builtinExtensions = {
 	...
@@ -79,9 +79,10 @@ const builtinExtensions = {
 
 https://sheeptester.github.io/scratch-gui can be used to run scratch extensions without running scratch in development locally. See the [source](https://github.com/SheepTester/scratch-gui) for more information.
 
-`extension-sheeptester.js` shows the differences needed in the extension file. This file needs to be hosted somewhere. As an example, `extension-sheeptester.js`is hosted at https://bredley.co.uk/scratch-extension-test.js, and can be run in the browser by going to https://sheeptester.github.io/scratch-gui/?url=https://bredley.co.uk/scratch-extension-test.js
+`extension-sheeptester.js` shows the differences needed in the extension file. This file needs to be hosted somewhere (you can use GitHub pages for that using this [simple tutorial](https://www.linkedin.com/pulse/quick-hack-hosting-files-github-jc-lee/)).
 
+As an example, `extension-sheeptester.js`is hosted on the GitHub pages for this repository [here](https://coderdojobrighton.github.io/scratch-extension-tutorial/extension-sheeptester.js), and can be run in the browser by going to https://sheeptester.github.io/scratch-gui/?url=https://coderdojobrighton.github.io/scratch-extension-tutorial/extension-sheeptester.js
 
 ## Other Resources
-[Video for dev setup](https://www.youtube.com/watch?v=KsnIUs4Fmx0&t=993s)
-[Linking tutorial](https://scratch.mit.edu/discuss/m/topic/607994/)
+- [Video for dev setup](https://www.youtube.com/watch?v=KsnIUs4Fmx0&t=993s)
+- [Linking tutorial](https://scratch.mit.edu/discuss/m/topic/607994/)
