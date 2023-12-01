@@ -4,7 +4,9 @@
 ```bash
 # Install VM - the logic part. Sends state to the GUI
 git clone https://github.com/LLK/scratch-vm.git 
+cd scratch-vm
 nvm use			# if using nvm for node version management
+npm install
 npm link
 
 # Install GUI - the visual part
